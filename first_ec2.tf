@@ -1,4 +1,4 @@
-#Configure the AWS Credentials
+#Configure the AWS Credentials with terraform
 provider "aws" {
   region     = "ap-south-1"
   access_key = "AKIAIG46MNA73K65LDIQ"
