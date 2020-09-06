@@ -6,10 +6,10 @@ provider "aws" {
 
 }
 
-resource "aws_instance" "samblake30ec2" {
+resource "aws_instance" "myec2" {
   ami = "ami-09a7bbd08886aafdf"
   instance_type = "t2.micro"
   tags = {
-    Name = "First-Terraform-Instance"
+    Name = "MyFirst-Terraform-Instance"
   }
 }
