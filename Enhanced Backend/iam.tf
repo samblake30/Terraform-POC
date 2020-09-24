@@ -3,9 +3,9 @@ terraform {
 
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "HIVECorps"
+    organization = "YOUR ORGANIZATION NAME"
 
-    workspaces { name = "Terraform-POC" }
+    workspaces { name = "YOUR WORKSPACE NAME" }
   }
 }
 

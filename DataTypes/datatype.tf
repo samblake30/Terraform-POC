@@ -1,8 +1,7 @@
-/*
 provider "aws" {
-  region     = "ap-south-1"
-  access_key = "AKIAIILHES55MS5MGD5Q"
-  secret_key = "cTdi9irLBxqto74/kI46pP3C5zvo65p532+APqri"
+  region     = "PUT YOUR REGION"
+  access_key = "PUT YOUR ACCESS KEY"
+  secret_key = "PUT YOUR SECRET KEY"
 
 }
 
@@ -10,4 +9,3 @@ resource "aws_iam_user" "myiam" {
   name = var.usernum
   path = "/system/"
 }
-*/
